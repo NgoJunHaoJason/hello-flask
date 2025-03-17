@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM python:3.10-slim-bookworm
+FROM python:3.10-slim-bookworm as build
 
 WORKDIR /hello-docker
 
